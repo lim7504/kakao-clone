@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .friend .friend__avatar{
@@ -52,6 +53,11 @@
     padding: 5px 10px;
     border-radius: 11px;
     font-size: 14px;
+    align-items: center;
+ }
+
+.friend__now-listening i{
+    font-size: 11px;
 
 }
 
