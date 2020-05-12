@@ -1,0 +1,15 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between; /* 자식 클래스들이 사이를 두고 양옆으로 정렬*/
+    margin-bottom: 30px;
+    opacity: 0.7; /*흐리게*/
+
+}
+
+.status-bar i {
+    font-size: 14px;
+}
+
+.status-bar .status-bar__battery-level{
+    margin-left: 3px;
+}
